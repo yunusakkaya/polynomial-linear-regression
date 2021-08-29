@@ -8,7 +8,7 @@ Created on Sat Jul  7 11:11:43 2018
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv(r"C:\Users\yunus\Desktop\udemy\polynomial_regression.csv",sep = ";")
+df = pd.read_csv(r"data.csv",sep = ";")
 
 y = df.araba_max_hiz.values.reshape(-1,1)
 x = df.araba_fiyat.values.reshape(-1,1)
